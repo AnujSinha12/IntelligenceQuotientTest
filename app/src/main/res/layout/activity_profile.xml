@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.anujsinha.intelligencequotient.ProfileActivity">
+
+<ImageView
+    android:id="@+id/ivcover"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="0dp"/>
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="63dp"
+    android:id="@+id/ivprof"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:id="@+id/textView13"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@+id/textView21"
+    android:layout_below="@+id/ivprof"
+
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="65dp"
+    android:fontFamily="serif"
+    android:text="Name"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/textView14"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@+id/textView13"
+    android:layout_below="@+id/textView13"
+    android:layout_marginTop="41dp"
+    android:fontFamily="serif"
+    android:text="User id"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/textView15"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@+id/textView14"
+    android:layout_below="@+id/textView14"
+    android:layout_marginTop="33dp"
+    android:fontFamily="serif"
+    android:text="Age"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/textView16"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@+id/textView15"
+    android:layout_below="@+id/textView15"
+    android:layout_marginTop="42dp"
+    android:fontFamily="serif"
+    android:text="Gender"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/tvname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/textView13"
+    android:layout_marginStart="75dp"
+    android:layout_toEndOf="@+id/textView13"
+    android:fontFamily="serif"
+    android:text="TextView"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/tvuserid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView15"
+    android:layout_alignEnd="@+id/tvname"
+    android:fontFamily="serif"
+    android:text="TextView"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/tvage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView16"
+    android:layout_alignEnd="@+id/tvuserid"
+    android:fontFamily="serif"
+    android:text="TextView"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/tvgender"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView16"
+    android:layout_alignBottom="@+id/textView16"
+    android:layout_alignEnd="@+id/tvage"
+    android:fontFamily="serif"
+    android:text="TextView"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/btntest"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="Test Your Iq" />
+
+<TextView
+    android:id="@+id/textView21"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ivprof"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="14dp"
+    android:fontFamily="serif"
+    android:text="General Information"
+    android:textColor="#03155d"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+
+
+</RelativeLayout>

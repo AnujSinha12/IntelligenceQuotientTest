@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.anujsinha.intelligencequotient.LoginActivity"
+android:background="#0cedde">
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:text="Log In"
+    android:textAlignment="center"
+    android:textSize="36sp"
+    android:textStyle="bold"
+    tools:textColor="#fbfcfc" />
+
+<EditText
+    android:id="@+id/etuserid"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/textView2"
+    android:layout_marginTop="46dp"
+    android:background="#fbfcfc"
+    android:elevation="4dp"
+    android:hint="user id"
+    android:maxLength="10"
+    android:theme="@style/AlertDialog.AppCompat.Light" />
+
+<EditText
+    android:id="@+id/etpass"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/etuserid"
+    android:layout_marginTop="23dp"
+    android:background="#fbfcfc"
+    android:elevation="4dp"
+    android:hint="password"
+    android:inputType="textPassword"
+    android:maxLength="10" />
+
+<Button
+    android:id="@+id/btnlog"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="41dp"
+    android:background="@android:drawable/alert_dark_frame"
+    android:elevation="7dp"
+    android:text="Log In"
+    android:textColor="#f7f9f9"
+    android:layout_below="@+id/etpass"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:id="@+id/tvreg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="74dp"
+    android:text="New User|Register Here"
+    android:textColor="#fbfcfc" />
+</RelativeLayout>
